@@ -52,7 +52,7 @@ html_theme = 'sphinx_rtd_theme'
 
 html_logo = 'theme/logoIsir.png'
 html_theme_options = {
-    #style_nav_header_background
+    style_nav_header_background: "#0090CD"
     #"relbarbgcolor": "#012235",
     #"sidebarbgcolor": "white",
     #"headtextcolor": "#0090CD"

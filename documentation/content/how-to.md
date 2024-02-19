@@ -14,8 +14,14 @@ stateDiagram-v2
 	GoTo_launch --> Error_Haply : /feedback
 ```
 
+```{objectives}
+- Understand how static site generators build websites out of plain
+  text files.
+- Create example Sphinx documentation and learn some Markdown along the way.
+```
 
-```discussion This lesson is built with Sphinx
+
+```{discussion} This lesson is built with Sphinx
 Try to compare the [source
 code](https://raw.githubusercontent.com/coderefinery/documentation/main/content/sphinx.md)
 and the result side by side.

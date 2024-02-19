@@ -48,8 +48,8 @@ myst_enable_extensions=['html_image',"html_admonition"]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_permalinks_icon = '<span>#</span>'
-html_theme = 'sphinxawesome_theme'
+#html_permalinks_icon = '<span>#</span>'
+html_theme = 'sphinx_rtd_theme'
 
 html_logo = 'theme/logoIsir.png'
 html_theme_options = {

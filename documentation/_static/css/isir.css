@@ -19,3 +19,18 @@
 
     max-width:50%;
 }
+
+.rst-content .toctree-wrapper>p.caption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend {
+  font-family:Lato;
+}
+
+h1 {
+    color:#0090CD
+}

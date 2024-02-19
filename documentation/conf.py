@@ -49,7 +49,7 @@ myst_enable_extensions=['html_image',"html_admonition"]
 # a list of builtin themes.
 #
 html_theme = 'classic'
-html_logo = 'images/logoIsir.png'
+html_logo = 'theme/logoIsir.png'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".

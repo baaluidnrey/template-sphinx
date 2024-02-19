@@ -2,6 +2,8 @@
 
 1. Il faut mettre en place un *pipe* d'intégration continue : fichier `.gitlab-ci.yml`.
 
+Mermaid example : https://github.com/mgaitan/sphinxcontrib-mermaid
+
 ```mermaid
 stateDiagram-v2
 

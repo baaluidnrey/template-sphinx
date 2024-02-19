@@ -43,6 +43,11 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 myst_enable_extensions=['html_image',"html_admonition"]
 
 
+# -- Options for Mermaid output -------------------------------------------------
+
+mermaid_params = ['--theme', 'forest', '--width', '600', '--backgroundColor', 'transparent']
+
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for

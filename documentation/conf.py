@@ -30,7 +30,7 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinxmermaid']
+extensions = ['myst_parser', 'sphinx_rtd_theme']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -41,21 +41,6 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 myst_enable_extensions=['html_image',"html_admonition"]
-
-
-# -- Options for Mermaid output -------------------------------------------------
-
-sphinxmermaid_mermaid_init = {
-  'theme': 'base',
-  'themeVariables': {
-    'primaryColor': '#BB2528',
-    'primaryTextColor': '#fff',
-    'primaryBorderColor': '#7C0000',
-    'lineColor': '#F8B229',
-    'secondaryColor': '#006100',
-    'tertiaryColor': '#fff'
-  }
-}
 
 
 # -- Options for HTML output -------------------------------------------------

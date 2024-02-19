@@ -1,7 +1,7 @@
 .. ISIR documentation template
 
-Welcome to a great documentation!
-================================
+ISIR template with documentation for gitlab
+===========================================
 
 .. toctree::
    :maxdepth: 2

@@ -1,15 +1,13 @@
-# ceci est une vue d'ensemble
+# Overview of the template
 
-##  sous-section 1
+## Purpose
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisl elit, maximus quis nisi porttitor, commodo volutpat ipsum. In egestas, magna id sodales imperdiet, eros odio placerat magna, eget aliquam turpis massa eu ipsum. Maecenas lorem ligula, tristique ut felis ut, condimentum commodo tellus. Vestibulum blandit, magna laoreet vestibulum eleifend, arcu nisi lobortis lorem, vitae efficitur sem risus vel augue. Cras ac leo elementum, tempor arcu vitae, consectetur ex. Fusce porttitor vitae diam eu hendrerit. Nunc tincidunt, libero a malesuada tristique, est nisi vestibulum purus, a pulvinar tortor ipsum vel dui. Curabitur malesuada convallis massa vel maximus. Ut at suscipit eros, eget semper massa. Sed mollis nec erat et egestas. Cras egestas leo et dui vestibulum molestie.
+This template has been created to enable everybody at the lab to create super fancy documentation associated to a project.
 
-Integer auctor in ligula in pretium. Aenean egestas elit ullamcorper velit elementum, ac maximus massa rhoncus. Donec sit amet odio vel orci ullamcorper euismod eu quis lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse vel fringilla magna. Cras at diam eget velit lacinia interdum vel ac orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam in molestie nisl. Sed malesuada fringilla est. Etiam lacinia magna quis molestie tempor. Duis nisl risus, pellentesque a purus nec, lobortis iaculis orci. Nunc id tortor pharetra, viverra nisl nec, fermentum neque. Suspendisse egestas lorem nec cursus malesuada. Maecenas sit amet lacus blandit, condimentum ante et, sodales felis.
+##  Ressources
 
-##  sous-section 2
+The content of this template is based on the following ressources :
 
-Duis id interdum justo, at tincidunt mauris. In tristique tortor augue, eu laoreet nulla fermentum vel. Duis imperdiet arcu nec neque tincidunt, sit amet pellentesque ante interdum. Phasellus pulvinar fermentum dolor, vitae sollicitudin augue suscipit vestibulum. Praesent tincidunt molestie orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque eu eros vel nibh interdum lobortis et non lorem. Sed vel arcu leo. Cras feugiat quam id eros ullamcorper, vitae hendrerit dolor rutrum.
-
-Integer at odio sit amet turpis egestas malesuada ut viverra quam. Praesent viverra erat est, eget luctus ligula egestas sed. Aliquam ultrices ullamcorper eleifend. Donec tempor sem at ligula finibus, ac congue nibh ultrices. Etiam non libero nec nibh consectetur pretium ullamcorper ac libero. Ut porttitor laoreet massa ac rhoncus. Curabitur eget semper enim. Praesent sem dui, pellentesque ac est id, condimentum tincidunt lacus. Maecenas a turpis et mauris euismod cursus sed non lorem. Sed posuere lacus ullamcorper felis sollicitudin rutrum.
-
-Curabitur aliquet lacinia faucibus. Cras egestas dictum tortor, sit amet accumsan tortor efficitur eu. Proin eu turpis non purus vulputate vulputate gravida non nunc. Mauris ornare metus massa, eu sagittis lorem tincidunt sed. Pellentesque quis dignissim sem. Nam tincidunt sapien in aliquet cursus. Proin pellentesque turpis in felis accumsan interdum. Vivamus a arcu ligula. Nullam convallis, risus ut pharetra consectetur, sapien justo molestie sem, non dignissim magna lacus at sapien. Vivamus a vulputate orci, vitae dignissim felis. Phasellus blandit condimentum eros vitae pharetra. Mauris a turpis rhoncus, porttitor augue ac, finibus nulla. 
+1. https://gitlab.com/pages/sphinx
+2. https://coderefinery.github.io/documentation/sphinx/
+3. https://coderefinery.github.io/documentation/gh_workflow/

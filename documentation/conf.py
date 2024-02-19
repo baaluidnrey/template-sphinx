@@ -54,6 +54,7 @@ html_logo = 'theme/logoIsir.png'
 html_theme_options = {
     #'style_nav_header_background': "#0090CD"
     'style_nav_header_background': "white",
+    'style_nav_search_color': "#0090CD",
     #"relbarbgcolor": "#012235",
     #"sidebarbgcolor": "white",
     "headtextcolor": "#0090CD"

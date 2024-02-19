@@ -50,7 +50,7 @@ myst_enable_extensions=['html_image',"html_admonition"]
 #
 html_theme = 'sphinx_rtd_theme'
 
-html_logo = 'theme/logoIsir.png'
+html_logo = 'css/logoIsir.png'
 html_theme_options = {
     #'style_nav_header_background': "#0090CD"
     #'style_nav_header_background': "white",
@@ -65,5 +65,5 @@ html_theme_options = {
 html_static_path = ["_static"]
 
 html_css_files = [
-    'theme/isir.css',
+    'css/isir.css',
 ]

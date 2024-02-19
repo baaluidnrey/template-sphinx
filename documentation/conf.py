@@ -30,7 +30,7 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = ['myst_parser', 'sphinxawesome_theme']
+extensions = ['myst_parser', 'sphinxawesome_theme', 'sphinx_rtd_theme']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -48,8 +48,8 @@ myst_enable_extensions=['html_image',"html_admonition"]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_permalinks_icon = '<span>#</span>'
-html_theme = 'sphinxawesome_theme'
+#html_permalinks_icon = '<span>#</span>'
+html_theme = 'sphinx_rtd_theme'
 
 html_logo = 'theme/logoIsir.png'
 html_theme_options = {

@@ -14,19 +14,6 @@ stateDiagram-v2
 	GoTo_launch --> Error_Haply : /feedback
 ```
 
-```{objectives}
-- Understand how static site generators build websites out of plain
-  text files.
-- Create example Sphinx documentation and learn some Markdown along the way.
-```
-
-
-```{discussion} This lesson is built with Sphinx
-Try to compare the [source
-code](https://raw.githubusercontent.com/coderefinery/documentation/main/content/sphinx.md)
-and the result side by side.
-```
-
 Puis faire la configuration de Sphinx : `conf.py`, `Makefile` et `make.bat` (tout ça provient de la documentation de Sphinx)
 
 2. Créer des fichiers dans lesquels on écrit notre belle documentation : dans `content`.

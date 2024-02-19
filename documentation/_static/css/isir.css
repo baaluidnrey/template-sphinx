@@ -45,6 +45,10 @@
   color:#012235;
 }
 
+body {
+    font-family:Lato;
+}
+
 .rst-content .toctree-wrapper>p.caption,
 h1,
 h2,

@@ -52,7 +52,8 @@ html_theme = 'classic'
 html_logo = 'theme/logoIsir.png'
 html_theme_options = {
     "relbarbgcolor": "#012235",
-    "sidebarbgcolor": "#0090CD"
+    "sidebarbgcolor": "white",
+    "headbgcolor": "#0090CD"
 }
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

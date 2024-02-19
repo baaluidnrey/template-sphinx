@@ -5,7 +5,7 @@ test:
   script:
   - pip install -U sphinx
   - pip install myst-parser
-  - sphinx-build -b html ./doc public
+  - sphinx-build -b html ./documentation public
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
     
@@ -14,7 +14,7 @@ pages:
   script:
   - pip install -U sphinx
   - pip install myst-parser
-  - sphinx-build -b html ./doc public
+  - sphinx-build -b html ./documentation public
   artifacts:
     paths:
     - public

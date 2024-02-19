@@ -9,3 +9,7 @@
 .wy-menu-vertical p.caption {
     color:#0090CD;
 }
+
+.wy-side-nav-search input[type=text] {
+    border-color:#0090CD
+}

@@ -20,6 +20,31 @@
     max-width:50%;
 }
 
+.wy-nav-side {
+    background:#012235;
+}
+
+.wy-menu-vertical li.current>a,
+.wy-menu-vertical li.on a {
+  color:#012235;
+}
+
+.wy-menu-vertical li.toctree-l3,
+.wy-menu-vertical li.toctree-l4 {
+  font-size:.9em
+}
+.wy-menu-vertical li.toctree-l2 a,
+.wy-menu-vertical li.toctree-l3 a,
+.wy-menu-vertical li.toctree-l4 a,
+.wy-menu-vertical li.toctree-l5 a,
+.wy-menu-vertical li.toctree-l6 a,
+.wy-menu-vertical li.toctree-l7 a,
+.wy-menu-vertical li.toctree-l8 a,
+.wy-menu-vertical li.toctree-l9 a,
+.wy-menu-vertical li.toctree-l10 a {
+  color:#012235;
+}
+
 .rst-content .toctree-wrapper>p.caption,
 h1,
 h2,

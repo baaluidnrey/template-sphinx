@@ -7,7 +7,7 @@ Blablablabla.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
 
    content/overview.md
    content/how-to.md
@@ -15,12 +15,9 @@ Blablablabla.
 
 .. toctree::
    :maxdepth: 2
-   :caption: About:
+   :caption: About
 
-   All lessons <https://coderefinery.org/lessons/core/>
-   CodeRefinery <https://coderefinery.org/>
-   Reusing <https://coderefinery.org/lessons/reusing/>
-
+   ISIR <https://www.isir.upmc.fr/>
 
 Indices and tables
 ==================

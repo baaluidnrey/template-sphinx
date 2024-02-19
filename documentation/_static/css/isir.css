@@ -1,3 +1,7 @@
 .wy-side-nav-search {
     background-color:"white";
 }
+
+.wy-side-nav-search>a {
+    color:#0090CD;
+}

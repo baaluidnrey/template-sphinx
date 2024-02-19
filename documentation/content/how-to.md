@@ -14,6 +14,12 @@ stateDiagram-v2
 	GoTo_launch --> Error_Haply : /feedback
 ```
 
+```console
+$ mkdir doc-example
+$ cd doc-example
+$ sphinx-quickstart
+```
+
 Puis faire la configuration de Sphinx : `conf.py`, `Makefile` et `make.bat` (tout ça provient de la documentation de Sphinx)
 
 2. Créer des fichiers dans lesquels on écrit notre belle documentation : dans `content`.

@@ -6,7 +6,7 @@ test:
   - pip install -U sphinx
   - pip install myst-parser
   - pip install sphinx-rtd-theme
-  - pip install sphinxcontrib-mermaid
+  - pip install sphinxmermaid
   - sphinx-build -b html ./documentation public
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
@@ -17,7 +17,7 @@ pages:
   - pip install -U sphinx
   - pip install myst-parser
   - pip install sphinx-rtd-theme
-  - pip install sphinxcontrib-mermaid
+  - pip install sphinxmermaid
   - sphinx-build -b html ./documentation public
   artifacts:
     paths:

@@ -51,8 +51,8 @@ myst_enable_extensions=['html_image',"html_admonition"]
 html_theme = 'classic'
 html_logo = 'theme/logoIsir.png'
 html_theme_options = {
-    "relbarbgcolor": "#012235",
-    "sidebarbgcolor": "#0090CD",
+    "relbarbgcolor": #012235,
+    "sidebarbgcolor": #0090CD,
     bgcolor 
 }
 # Add any paths that contain custom static files (such as style sheets) here,

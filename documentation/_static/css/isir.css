@@ -13,3 +13,8 @@
 .wy-side-nav-search input[type=text] {
     border-color:#012235;
 }
+
+.wy-side-nav-search>a img.logo {
+
+    max-width:50%;
+}

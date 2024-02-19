@@ -53,7 +53,7 @@ html_theme = 'sphinx_rtd_theme'
 html_logo = 'theme/logoIsir.png'
 
 html_theme_options = {
-    'vcs_pageview_mode': '',
+    'vcs_pageview_mode': 'display_gitlab',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

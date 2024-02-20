@@ -8,10 +8,12 @@ test:
   - pip install sphinx-rtd-theme
   - pip install sphinxcontrib-mermaid
   - pip install npm
-  - npm install -g @mermaid-js/mermaid-cli
   - sphinx-build -b html ./documentation public
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
+  jobs:
+    post_install:
+      - npm install -g @mermaid-js/mermaid-cli
     
 pages:
   stage: deploy
@@ -28,3 +30,6 @@ pages:
     - public
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+  jobs:
+    post_install:
+      - npm install -g @mermaid-js/mermaid-cli

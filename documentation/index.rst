@@ -11,6 +11,7 @@ Blablablabla.
 
    content/overview.md
    content/how-to.md
+   content/fancy-diagrams.md
 
 
 .. toctree::

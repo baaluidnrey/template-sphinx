@@ -30,7 +30,7 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = ['myst_parser', 'sphinx_rtd_theme']
+extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinxcontrib.mermaid']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -63,4 +63,8 @@ html_static_path = ["_static"]
 
 html_css_files = [
     'css/isir.css',
+]
+
+html_js_files = [
+   'js/mermaid.js',
 ]

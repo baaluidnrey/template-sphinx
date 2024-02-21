@@ -73,5 +73,5 @@ html_css_files = [
 ]
 
 html_js_files = [
-   'js/mermaid.js',
+   'js/mermaid_isir.js',
 ]

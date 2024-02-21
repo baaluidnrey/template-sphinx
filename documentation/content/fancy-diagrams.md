@@ -8,7 +8,6 @@ Qu'est-ce que ça donne avec celui-ci ? https://mariocarrion.com/2019/08/04/gitl
 
 ```{mermaid}
 ---
-title: stateDiagram
 caption: Ceci est un example de diagramme
 alt: Ceci est un example de diagramme
 align: 'center'
@@ -25,6 +24,31 @@ stateDiagram-v2
         join_state --> State4
         State4 --> [*]
 ```
+
+http://mermaid.js.org/config/directives.html
+
+```{mermaid}
+%%{init: { "theme": "forest" } }%%
+graph TD
+A(Forest) --> B[/Another/]
+A --> C[End]
+  subgraph section
+  B
+  C
+  end
+```
+
+```{mermaid}
+%%{init: { "theme": "dark", "fontFamily": "monospace" } }%%
+graph TD
+A(Forest) --> B[/Another/]
+A --> C[End]
+  subgraph section
+  B
+  C
+  end
+```
+
 
 ```{mermaid}
 %%| label: fig-1

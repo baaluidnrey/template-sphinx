@@ -45,13 +45,9 @@ myst_enable_extensions=['html_image',"html_admonition"]
 
 # -- Options for mermaid output -------------------------------------------------
 
-mermaid_output_format = 'raw'
+mermaid_output_format = 'png'
 mermaid_params = ['--theme', 'forest', '--width', '600', '--backgroundColor', 'transparent']
 
-
-source_suffix = {
-    '.md': 'markdown'
-}
 
 # -- Options for HTML output -------------------------------------------------
 

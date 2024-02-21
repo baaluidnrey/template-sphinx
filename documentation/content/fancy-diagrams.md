@@ -1,5 +1,102 @@
 # Faire de jolis diagrammes avec Mermaid
 
+Mermaid permet d'insérer des diagrammes de différents types : *Flowchart*, *State Diagram*, *Gantt*, etc. (voir [ici](https://mermaid.js.org/ecosystem/tutorials.html)).
+
+```{mermaid}
+---
+title: Simple sample
+caption: Voici un example de diagramme d'état [[source]](https://mermaid.js.org/syntax/stateDiagram.html)
+---
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
+
+```{mermaid}
+---
+title: Animal example
+caption: Voici un example de diagramme de classe [[source]](https://mermaid.js.org/syntax/classDiagram.html)
+---
+classDiagram
+    note "From Duck till Zebra"
+    Animal <|-- Duck
+    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
+    }
+```
+
+## Intégration dans la *pipeline*
+
+Cette fonctionnalité est ajoutée dans la *pipeline* d'intégration continue qui déploie la documentation. Pour la mettre en place, on s'est appuyé sur le contenu de [ce tutoriel](https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/).
+
+1. dans le fichier `.gitlab-ci.yaml` :
+    - installation de `sphinxcontrib-mermaid` dans le fichier 
+      ```yaml
+      pip install sphinxcontrib-mermaid
+      ```
+
+2. dans le fichier `conf.py` :
+    - ajout de l'extension `sphinxcontrib.mermaid`
+      ```python
+      extensions = [
+      ...,
+      'sphinxcontrib.mermaid'
+      ]
+      ```
+    - utilisation d'un fichier local pour la librairie
+      ```python
+      mermaid_version = "" # use of local file _static/js/mermaid_isir.js
+
+      # Changes relative to mermaid.js :
+      #   font : lato
+      #   default theme : base
+      html_js_files = [
+        'js/mermaid_isir.js',
+      ]
+      ```
+
+## Syntaxe pour que la génération des graphiques fonctionne
+
+  ```bash
+    ```{mermaid}
+    graph LR
+        A[Square Rect] -- Link text --> B((Circle))
+        A --> C(Round Rect)
+        B --> D{Rhombus}
+        C --> D
+    ```
+  ```
+
+⚠️ Il faut mettre *mermaid* entre crochets {} pour que la génération des diagrammes se fasse sur les pages HTML. La visualisation sur l'interface web de gitlab ne fonctionne alors plus.
+
+
+## Personnaliser les diagrammes
+
+
+
+
 Tuto pour le mettre en place : https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/
 
 J'ai pas réussi à obtenir ce que je veux en suivant ce tuto.

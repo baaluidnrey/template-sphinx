@@ -137,11 +137,11 @@ gantt
 
 
 ```{mermaid}
-%%{init: { "theme": "dark" } }%%
 ---
 caption: Ceci est un exemple de diagramme de gant avec le theme dark
 align: 'center'
 ---
+%%{init: { "theme": "dark" } }%%
 gantt
     dateFormat  YYYY-MM-DD
     title       Adding GANTT diagram functionality to mermaid
@@ -175,11 +175,11 @@ gantt
 ```
 
 ```{mermaid}
-%%{init: { "theme": "base" } }%%
 ---
 caption: Ceci est un exemple de diagramme de gant avec le theme dark
 align: 'center'
 ---
+%%{init: { "theme": "base" } }%%
 gantt
     dateFormat  YYYY-MM-DD
     title       Adding GANTT diagram functionality to mermaid

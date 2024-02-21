@@ -243,15 +243,19 @@ A --> C[End]
 
 ```{mermaid}
 ---
-caption: Ceci est un example de diagramme très personnalisé
+caption: Ceci est un example de diagramme très personnalisé [[source]](https://mermaid.js.org/config/theming.html#customizing-themes-with-themevariables)
 align: 'center'
 ---
 %%{
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#0090CD',
-      'secondaryColor': '#012235',
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
     }
   }
 }%%

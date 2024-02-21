@@ -1,6 +1,6 @@
 # Faire de jolis diagrammes avec Mermaid
 
-Tuto pour le mettre en place : https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/$
+Tuto pour le mettre en place : https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/
 
 J'ai pas réussi à obtenir ce que je veux en suivant ce tuto.
 
@@ -35,4 +35,16 @@ sequenceDiagram
     John-->Alice: Great!
     John->Bob: How about you?
     Bob-->John: Jolly good!
+```
+
+
+
+```{mermaid}
+
+pie title NETFLIX
+         "Time spent looking for movie" : 90
+         "Time spent watching it" : 10
+:alt: Ceci est un diagramme qui représente mon utilisaton de Netflix
+:caption: Ceci est un diagramme qui représente mon utilisaton de Netflix
+:align: 'center'
 ```

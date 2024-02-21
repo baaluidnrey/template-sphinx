@@ -47,6 +47,7 @@ classDiagram
     }
 ```
 
+
 ## Syntaxe pour que la génération des graphiques fonctionne
 
 ⚠️ Il faut **mettre *mermaid* entre crochets** pour que la génération des diagrammes se fasse sur les pages HTML. La visualisation sur l'interface web de gitlab ne fonctionne alors plus.
@@ -60,36 +61,6 @@ classDiagram
         C --> D
     ```
   ```
-
-## Intégration dans la *pipeline* d'intégration continue
-
-Cette fonctionnalité est ajoutée dans la *pipeline* d'intégration continue qui déploie la documentation. Pour la mettre en place, on s'est appuyé sur le contenu de [ce tutoriel](https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/).
-
-1. dans le fichier `.gitlab-ci.yaml` :
-    - installation de `sphinxcontrib-mermaid` dans le fichier 
-      ```yaml
-      pip install sphinxcontrib-mermaid
-      ```
-
-2. dans le fichier `conf.py` :
-    - ajout de l'extension `sphinxcontrib.mermaid`
-      ```python
-      extensions = [
-      ...,
-      'sphinxcontrib.mermaid'
-      ]
-      ```
-    - utilisation d'un fichier local pour la librairie
-      ```python
-      mermaid_version = "" # use of local file _static/js/mermaid_isir.js
-
-      # Changes relative to mermaid.js :
-      #   font : lato
-      #   default theme : base
-      html_js_files = [
-        'js/mermaid_isir.js',
-      ]
-      ```
 
 
 ## Modifier la figure
@@ -125,6 +96,39 @@ A --> C[End]
   C
   end
 ```
+
+⚠️ Poursuivre la lecture engrenge des risques de zèle important. Au moins, vous êtes prévenus !
+
+
+## Intégration dans la *pipeline* d'intégration continue
+
+Cette fonctionnalité est ajoutée dans la *pipeline* d'intégration continue qui déploie la documentation. Pour la mettre en place, on s'est appuyé sur le contenu de [ce tutoriel](https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/).
+
+1. dans le fichier `.gitlab-ci.yaml` :
+    - installation de `sphinxcontrib-mermaid` dans le fichier 
+      ```yaml
+      pip install sphinxcontrib-mermaid
+      ```
+
+2. dans le fichier `conf.py` :
+    - ajout de l'extension `sphinxcontrib.mermaid`
+      ```python
+      extensions = [
+      ...,
+      'sphinxcontrib.mermaid'
+      ]
+      ```
+    - utilisation d'un fichier local pour la librairie
+      ```python
+      mermaid_version = "" # use of local file _static/js/mermaid_isir.js
+
+      # Changes relative to mermaid.js :
+      #   font : lato
+      #   default theme : base
+      html_js_files = [
+        'js/mermaid_isir.js',
+      ]
+      ```
 
 
 ## Personnaliser les diagrammes

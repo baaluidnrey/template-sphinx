@@ -30,7 +30,7 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = ['myst_parser', 'sphinx_immaterial', 'sphinxcontrib.mermaid', 'sphinx.ext.imgconverter']
+extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx_immaterial', 'sphinxcontrib.mermaid', 'sphinx.ext.imgconverter']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -54,15 +54,15 @@ myst_enable_extensions=['html_image',"html_admonition"]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_immaterial'
+html_theme = 'sphinx_rtd_theme'
 
 html_logo = 'theme/logoIsir.png'
 
 html_theme_options = {
     'vcs_pageview_mode': 'display_gitlab',
-    "font": {
-        "text": "Roboto",  # used for all the pages' text
-        "code": "Roboto Mono"  # used for literal code blocks
+#    "font": {
+#        "text": "Roboto",  # used for all the pages' text
+#        "code": "Roboto Mono"  # used for literal code blocks
     },
 }
 

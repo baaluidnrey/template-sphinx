@@ -1,16 +1,4 @@
 image: python:3.8-alpine
-
-test:
-  stage: test
-  script:
-  - pip install -U sphinx
-  - pip install myst-parser
-  - pip install sphinx-rtd-theme
-  - pip install sphinxcontrib-mermaid
-  - pip install npm
-  - sphinx-build -b html ./documentation public
-  rules:
-    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
     
 pages:
   stage: deploy

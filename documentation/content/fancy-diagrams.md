@@ -7,7 +7,11 @@ J'ai pas réussi à obtenir ce que je veux en suivant ce tuto.
 Qu'est-ce que ça donne avec celui-ci ? https://mariocarrion.com/2019/08/04/gitlab-mkdocs-mermaid-pages.html
 
 ```{mermaid}
-
+---
+caption: Ceci est un example de diagramme
+alt: Ceci est un example de diagramme
+align: 'center'
+---
 stateDiagram-v2
     state fork_state <<fork>>
         [*] --> fork_state

@@ -30,7 +30,7 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinxcontrib.mermaid']
+extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinxcontrib.mermaid', 'sphinx.ext.imgconverter']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -46,7 +46,7 @@ myst_enable_extensions=['html_image',"html_admonition"]
 # -- Options for mermaid output -------------------------------------------------
 
 mermaid_output_format = 'png'
-mermaid_params = ['--theme', 'forest', '--width', '600', '--backgroundColor', 'transparent']
+# mermaid_params = ['--theme', 'forest', '--width', '600', '--backgroundColor', 'transparent']
 
 
 # -- Options for HTML output -------------------------------------------------

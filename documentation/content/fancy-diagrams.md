@@ -26,6 +26,9 @@ stateDiagram-v2
 ```
 
 ```{mermaid}
+%%| label: fig-1
+%%| fig-cap: Sur celui-ci on teste une autre syntaxe (https://github.com/quarto-dev/quarto-cli/issues/4376)
+%%| fig-align: center
 
 sequenceDiagram
 
@@ -49,7 +52,6 @@ Exemples : https://mermaid.js.org/syntax/examples.html
 caption: Ceci est un diagramme qui représente mon utilisaton de Netflix
 alt: Ceci est un diagramme qui représente mon utilisaton de Netflix
 align: 'center'
-width: 500
 ---
 pie title NETFLIX
          "Time spent looking for movie" : 90

@@ -94,23 +94,23 @@ Cette fonctionnalité est ajoutée dans la *pipeline* d'intégration continue qu
 
 ## Modifier la figure
 
-Il est possible d'ajouter une légende, de la positionner, etc. en ajoutant des instructions *Markdown* avant le diagramme (voir [ici](https://platen.io/modules/platen/markup/mermaid/)).
+Il est possible d'ajouter une légende, de positionner la figure, etc. en ajoutant des instructions *Markdown* avant le diagramme (voir [ici](https://platen.io/modules/platen/markup/mermaid/)).
 
-```markdown
-  ```{mermaid}
-  ---
-  caption: Ceci est une figure centrée avec une légende
-  align: 'center'
-  ---
-  graph TD
-  A(Forest) --> B[/Another/]
-  A --> C[End]
-    subgraph section
-    B
-    C
-    end
+  ```markdown
+    ```{mermaid}
+    ---
+    caption: Ceci est une figure centrée avec une légende
+    align: 'center'
+    ---
+    graph TD
+    A(Forest) --> B[/Another/]
+    A --> C[End]
+      subgraph section
+      B
+      C
+      end
+    ```
   ```
-```
 
 ```{mermaid}
 ---

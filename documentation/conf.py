@@ -44,12 +44,8 @@ myst_enable_extensions=['html_image',"html_admonition"]
 
 
 # -- Options for mermaid output -------------------------------------------------
+mermaid_version = "" # use of local file _static/js/mermaid_isir.js
 
-# mermaid_output_format = 'png'
-
-mermaid_version = "" # use of local file _static/js/mermaid.js
-# mermaid_params = ['--theme', 'forest', '--fontFamily', 'arial'] # ca a l'air de n'avori aucun effet contrairement au chargement de mermaid_isir.js
-# mermaid_params = ['--theme', 'forest', '--width', '600', '--backgroundColor', 'transparent']
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -69,10 +65,14 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
+# Changes of colors and font
 html_css_files = [
     'css/isir.css',
 ]
 
+# Changes relative to mermaid.js :
+#   font : lato
+#   default theme : base
 html_js_files = [
    'js/mermaid_isir.js',
 ]

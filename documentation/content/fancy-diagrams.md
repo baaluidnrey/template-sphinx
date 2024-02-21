@@ -39,7 +39,22 @@ A --> C[End]
 ```
 
 ```{mermaid}
-%%{init: { "theme": "dark", "fontFamily": "monospace" } }%%
+%%{init: { "theme": "dark" } }%%
+graph TD
+A(Forest) --> B[/Another/]
+A --> C[End]
+  subgraph section
+  B
+  C
+  end
+```
+
+```{mermaid}
+---
+caption: Ceci est un example de diagramme avec le theme "neutral"
+align: 'center'
+theme: neutral
+---
 graph TD
 A(Forest) --> B[/Another/]
 A --> C[End]

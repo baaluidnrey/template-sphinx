@@ -133,45 +133,17 @@ Le fichier local `mermaid_isir.js` contient la configuration qui permet de gén�
 
 Il est aussi possible de personnaliser chaque diagramme : thème, police, couleurs, etc. (plus de détails [ici](https://mermaid.js.org/config/theming.html)).
 
-Pour cela, on utilise la directive `init`. Voici quelques exemples :
+Pour cela, on utilise la directive `init`.
 
-  ```markdown
-    ```{mermaid}
-    ---
-    caption: Ceci est un example de diagramme avec le theme "dark" et la police "monospace"
-    align: 'center'
-    ---
-    %%{init: { "theme": "dark", "fontFamily": "monospace" } }%%
-    graph TD
-    A(Forest) --> B[/Another/]
-    A --> C[End]
-      subgraph section
-      B
-      C
-      end
-    ```
-  ```
+⚠️ La directive `init` doit se trouver **après les instructions *Markdown*** s'appliquant à la figure.
 
-```{mermaid}
----
-caption: Ceci est un example de diagramme avec le theme "dark" et la police "monospace"
-align: 'center'
----
-%%{init: { "theme": "dark", "fontFamily": "monospace" } }%%
-graph TD
-A(Forest) --> B[/Another/]
-A --> C[End]
-  subgraph section
-  B
-  C
-  end
-```
+### On peut changer le thème par exemple
 
   ```markdown
     ```{mermaid}
     ---
     title: Animal example
-    caption: Ceci est un example de diagramme avec le theme "neutral"
+    caption: Ceci est un example de diagramme avec le thème "neutral"
     align: 'center'
     ---
     %%{init: { "theme": "neutral"} }%%
@@ -204,7 +176,7 @@ A --> C[End]
 ```{mermaid}
 ---
 title: Animal example
-caption: Ceci est un example de diagramme avec le theme "neutral"
+caption: Ceci est un example de diagramme avec le thème "neutral"
 align: 'center'
 ---
 %%{init: { "theme": "neutral"} }%%
@@ -231,4 +203,63 @@ classDiagram
         +bool is_wild
         +run()
     }
+```
+
+### On peut changer aussi la police
+
+  ```markdown
+    ```{mermaid}
+    ---
+    caption: Ceci est un example de diagramme avec le thème "dark" et la police "monospace"
+    align: 'center'
+    ---
+    %%{init: { "theme": "dark", "fontFamily": "monospace" } }%%
+    graph TD
+    A(Forest) --> B[/Another/]
+    A --> C[End]
+      subgraph section
+      B
+      C
+      end
+    ```
+  ```
+
+```{mermaid}
+---
+caption: Ceci est un example de diagramme avec le thème "dark" et la police "monospace"
+align: 'center'
+---
+%%{init: { "theme": "dark", "fontFamily": "monospace" } }%%
+graph TD
+A(Forest) --> B[/Another/]
+A --> C[End]
+  subgraph section
+  B
+  C
+  end
+```
+
+### On peut aussi tout personnaliser mais ça devient peut-être excessif ?
+
+```{mermaid}
+---
+caption: Ceci est un example de diagramme avec le thème "dark" et la police "monospace"
+align: 'center'
+---
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#0090CD',
+      'secondaryColor': '#012235',
+    }
+  }
+}%%
+graph TD
+A(Forest) --> B[/Another/]
+A --> C[End]
+  subgraph section
+  B
+  C
+  end
 ```

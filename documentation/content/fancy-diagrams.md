@@ -16,7 +16,7 @@ stateDiagram-v2
     GoTo_launch --> Error_Haply : /feedback
 ```
 
-.. mermaid::
+```mermaid
 
     stateDiagram-v2
         state fork_state <<fork>>
@@ -29,10 +29,9 @@ stateDiagram-v2
             State3 --> join_state
             join_state --> State4
             State4 --> [*]
+```
 
-.. md-mermaid::
-    :name: other-graph
-
+```mermaid
     sequenceDiagram
         participant Alice
         participant Bob
@@ -44,4 +43,4 @@ stateDiagram-v2
         John-->Alice: Great!
         John->Bob: How about you?
         Bob-->John: Jolly good!
-
+```

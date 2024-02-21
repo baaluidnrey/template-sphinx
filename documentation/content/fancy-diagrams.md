@@ -8,6 +8,7 @@ Qu'est-ce que ça donne avec celui-ci ? https://mariocarrion.com/2019/08/04/gitl
 
 ```{mermaid}
 ---
+title: stateDiagram
 caption: Ceci est un example de diagramme
 alt: Ceci est un example de diagramme
 align: 'center'

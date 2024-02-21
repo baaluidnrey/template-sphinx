@@ -243,7 +243,7 @@ A --> C[End]
 
 ```{mermaid}
 ---
-caption: Ceci est un example de diagramme avec le thème "dark" et la police "monospace"
+caption: Ceci est un example de diagramme très personnalisé
 align: 'center'
 ---
 %%{
@@ -255,14 +255,18 @@ align: 'center'
     }
   }
 }%%
-graph TD
-A(Forest) --> B[/Another/]
-A --> C[End]
-  subgraph section
-  B
-  C
-  end
+        graph TD
+          A[Christmas] -->|Get money| B(Go shopping)
+          B --> C{Let me think}
+          B --> G[/Another/]
+          C ==>|One| D[Laptop]
+          C -->|Two| E[iPhone]
+          C -->|Three| F[fa:fa-car Car]
+          subgraph section
+            C
+            D
+            E
+            F
+            G
+        end
 ```
-
-
-ceci est une modification

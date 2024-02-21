@@ -43,6 +43,7 @@ Exemples : https://mermaid.js.org/syntax/examples.html
 ```{mermaid}
 ---
 caption: Ceci est un diagramme qui représente mon utilisaton de Netflix
+alt: Ceci est un diagramme qui représente mon utilisaton de Netflix
 ---
 pie title NETFLIX
          "Time spent looking for movie" : 90

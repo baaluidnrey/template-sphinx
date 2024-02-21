@@ -11,7 +11,6 @@ Qu'est-ce que ça donne avec celui-ci ? https://mariocarrion.com/2019/08/04/gitl
 caption: Ceci est un example de diagramme
 alt: Ceci est un example de diagramme
 align: 'center'
-zoom: 'mermaid_d3_zoom'
 ---
 stateDiagram-v2
     state fork_state <<fork>>
@@ -50,6 +49,7 @@ Exemples : https://mermaid.js.org/syntax/examples.html
 caption: Ceci est un diagramme qui représente mon utilisaton de Netflix
 alt: Ceci est un diagramme qui représente mon utilisaton de Netflix
 align: 'center'
+width: 500
 ---
 pie title NETFLIX
          "Time spent looking for movie" : 90

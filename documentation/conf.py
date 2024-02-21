@@ -46,9 +46,9 @@ myst_enable_extensions=['html_image',"html_admonition"]
 # -- Options for mermaid output -------------------------------------------------
 
 # mermaid_output_format = 'png'
-mermaid_params = ['--theme', 'forest', '--width', '600', '--backgroundColor', 'transparent']
+# mermaid_params = ['--theme', 'forest', '--width', '600', '--backgroundColor', 'transparent']
 #mermaid_version = "" # use of local file _static/js/mermaid.js
-
+mermaid_params = ['--theme', 'forest', '--fontFamily', 'arial']
 
 # -- Options for HTML output -------------------------------------------------
 

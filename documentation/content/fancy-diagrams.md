@@ -6,7 +6,7 @@ J'ai pas réussi à obtenir ce que je veux en suivant ce tuto.
 
 Qu'est-ce que ça donne avec celui-ci ? https://mariocarrion.com/2019/08/04/gitlab-mkdocs-mermaid-pages.html
 
-```{mermaid}
+```mermaid
 stateDiagram-v2
 
     GoTo_launch --> GoTo_node : /move

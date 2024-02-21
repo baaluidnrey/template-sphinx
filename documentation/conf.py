@@ -62,6 +62,13 @@ html_theme_options = {
     'vcs_pageview_mode': 'display_gitlab',
 }
 
+html_theme_options = {
+    "font": {
+        "text": "Roboto",  # used for all the pages' text
+        "code": "Roboto Mono"  # used for literal code blocks
+    },
+}
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".

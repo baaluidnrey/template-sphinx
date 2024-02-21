@@ -60,9 +60,6 @@ html_logo = 'theme/logoIsir.png'
 
 html_theme_options = {
     'vcs_pageview_mode': 'display_gitlab',
-}
-
-html_theme_options = {
     "font": {
         "text": "Roboto",  # used for all the pages' text
         "code": "Roboto Mono"  # used for literal code blocks

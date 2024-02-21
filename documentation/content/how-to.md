@@ -4,7 +4,7 @@
 
 Mermaid example : https://github.com/mgaitan/sphinxcontrib-mermaid
 
-```mermaid
+```{mermaid}
 stateDiagram-v2
 
 	GoTo_launch --> GoTo_node : /move

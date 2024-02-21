@@ -51,6 +51,52 @@ A --> C[End]
 
 ```{mermaid}
 ---
+caption: Ceci est un example de diagramme avec le theme "forest"
+align: 'center'
+theme: forest
+---
+graph TD
+A(Forest) --> B[/Another/]
+A --> C[End]
+  subgraph section
+  B
+  C
+  end
+```
+
+```{mermaid}
+---
+caption: Ceci est un example de diagramme avec le theme "forest"
+align: 'center'
+theme: base
+---
+graph TD
+A(Forest) --> B[/Another/]
+A --> C[End]
+  subgraph section
+  B
+  C
+  end
+```
+
+```{mermaid}
+---
+caption: Ceci est un example de diagramme avec le theme "dark" et la police "monospace"
+align: 'center'
+theme: dark
+fontFamily: monospace
+---
+graph TD
+A(Forest) --> B[/Another/]
+A --> C[End]
+  subgraph section
+  B
+  C
+  end
+```
+
+```{mermaid}
+---
 caption: Ceci est un example de diagramme avec le theme "neutral"
 align: 'center'
 theme: neutral

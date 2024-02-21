@@ -50,11 +50,11 @@ A --> C[End]
 ```
 
 ```{mermaid}
-%%{init: { "theme": "dark", "fontFamily": "monospace" } }%%
 ---
 caption: Ceci est un example de diagramme avec le theme "dark" et la police "monospace"
 align: 'center'
 ---
+%%{init: { "theme": "dark", "fontFamily": "monospace" } }%%
 graph TD
 A(Forest) --> B[/Another/]
 A --> C[End]
@@ -65,11 +65,11 @@ A --> C[End]
 ```
 
 ```{mermaid}
-%%{init: { "theme": "neutral", "fontFamily": "monospace" } }%%
 ---
 caption: Ceci est un example de diagramme avec le theme "neutral" et la police "monospace"
 align: 'center'
 ---
+%%{init: { "theme": "neutral", "fontFamily": "monospace" } }%%
 graph TD
 A(Forest) --> B[/Another/]
 A --> C[End]
@@ -80,11 +80,11 @@ A --> C[End]
 ```
 
 ```{mermaid}
-%%{init: { "theme": "base", "fontFamily": "comic sans ms" } }%%
 ---
 caption: Ceci est un example de diagramme avec le theme "base" et la police "comic sans ms"
 align: 'center'
 ---
+%%{init: { "theme": "base", "fontFamily": "comic sans ms" } }%%
 graph TD
 A(Forest) --> B[/Another/]
 A --> C[End]

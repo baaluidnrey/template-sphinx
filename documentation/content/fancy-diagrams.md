@@ -1,6 +1,6 @@
 # Faire de jolis diagrammes avec Mermaid
 
-Mermaid permet d'insérer des diagrammes de différents types : *Flowchart*, *State Diagram*, *Gantt*, etc. (voir [ici](https://mermaid.js.org/ecosystem/tutorials.html)).
+Mermaid permet d'insérer des diagrammes de différents types : *Flowchart*, *State Diagram*, *Gantt*, etc. (voir [ici](https://mermaid.js.org/ecosystem/tutorials.html)) dans des fichiers *Markdown*.
 
 ```{mermaid}
 ---
@@ -47,7 +47,21 @@ classDiagram
     }
 ```
 
-## Intégration dans la *pipeline*
+## Syntaxe pour que la génération des graphiques fonctionne
+
+⚠️ Il faut **mettre *mermaid* entre crochets** pour que la génération des diagrammes se fasse sur les pages HTML. La visualisation sur l'interface web de gitlab ne fonctionne alors plus.
+
+  ```bash
+    ```{mermaid}
+    graph LR
+        A[Square Rect] -- Link text --> B((Circle))
+        A --> C(Round Rect)
+        B --> D{Rhombus}
+        C --> D
+    ```
+  ```
+
+## Intégration dans la *pipeline* d'intégration continue
 
 Cette fonctionnalité est ajoutée dans la *pipeline* d'intégration continue qui déploie la documentation. Pour la mettre en place, on s'est appuyé sur le contenu de [ce tutoriel](https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/).
 
@@ -77,22 +91,54 @@ Cette fonctionnalité est ajoutée dans la *pipeline* d'intégration continue qu
       ]
       ```
 
-## Syntaxe pour que la génération des graphiques fonctionne
 
-  ```bash
-    ```{mermaid}
-    graph LR
-        A[Square Rect] -- Link text --> B((Circle))
-        A --> C(Round Rect)
-        B --> D{Rhombus}
-        C --> D
-    ```
+## Modifier la figure
+
+Il est possible d'ajouter une légende, de la positionner, etc. en ajoutant des instructions *Markdown* avant le diagramme (voir [ici](https://platen.io/modules/platen/markup/mermaid/)).
+
+```markdown
+  ```{mermaid}
+  ---
+  caption: Ceci est une figure centrée avec une légende
+  align: 'center'
+  ---
+  graph TD
+  A(Forest) --> B[/Another/]
+  A --> C[End]
+    subgraph section
+    B
+    C
+    end
   ```
+```
 
-⚠️ Il faut mettre *mermaid* entre crochets {} pour que la génération des diagrammes se fasse sur les pages HTML. La visualisation sur l'interface web de gitlab ne fonctionne alors plus.
+```{mermaid}
+---
+caption: Ceci est une figure centrée avec une légende
+align: 'center'
+---
+graph TD
+A(Forest) --> B[/Another/]
+A --> C[End]
+  subgraph section
+  B
+  C
+  end
+```
 
 
 ## Personnaliser les diagrammes
+
+Le fichier local `mermaid_isir.js` contient la configuration qui permet de générer les diagrammes en HTML. Comme écrit précédemment, il a été modifié pour que la police soit *Lato* et que le thème par défaut soit *base*.
+
+Il est aussi possible de personnaliser chaque diagramme : thème, police, couleurs, etc. (plus de détails [ici](https://mermaid.js.org/config/theming.html)).
+
+Pour cela, on utilise la directive `init`. Voici quelques exemple :
+
+
+
+
+
 
 
 

@@ -97,7 +97,7 @@ A --> C[End]
   end
 ```
 
-⚠️ Poursuivre la lecture engrenge des risques de zèle important. Au moins, vous êtes prévenus !
+⚠️ Poursuivre la lecture est susceptible d'aboutir à du zèle de votre part. Au moins, vous êtes prévenus !
 
 
 ## Intégration dans la *pipeline* d'intégration continue
@@ -209,7 +209,7 @@ classDiagram
     }
 ```
 
-### On peut changer aussi la police
+### On peut aussi changer la police
 
   ```markdown
     ```{mermaid}

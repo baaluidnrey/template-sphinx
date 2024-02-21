@@ -17,6 +17,7 @@ The content of this template is based on the following ressources :
 
 Le template suit la charte graphique de l'ISIR, à savoir :
 
+- Police : Lato
 - Couleurs :
 
     <table align="center">
@@ -45,11 +46,3 @@ Le template suit la charte graphique de l'ISIR, à savoir :
             <td>Hexa : #012235</td>
         </tr>
     </table>
-
-
-    | CMJN : 100 ; 30 ; 0 ; 20 | CMJN : 98 ; 36 ; 0 ; 79 |
-    | :----------------------- | :---------------------- |
-    | RVB : 0 ; 144 ; 205      | RVB : 1 ; 34 ; 53       |
-    | Hexa : #0090CD           | Hexa : #012235          |
-
-- Police : Lato

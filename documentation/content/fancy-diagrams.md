@@ -11,6 +11,7 @@ Qu'est-ce que ça donne avec celui-ci ? https://mariocarrion.com/2019/08/04/gitl
 caption: Ceci est un example de diagramme
 alt: Ceci est un example de diagramme
 align: 'center'
+zoom: 'mermaid_d3_zoom'
 ---
 stateDiagram-v2
     state fork_state <<fork>>

@@ -50,41 +50,40 @@ A --> C[End]
 ```
 
 ```{mermaid}
----
-caption: Ceci est un example de diagramme avec le theme "forest"
-align: 'center'
-theme: 'forest'
----
-graph TD
-A(Forest) --> B[/Another/]
-A --> C[End]
-  subgraph section
-  B
-  C
-  end
-```
-
-```{mermaid}
----
-caption: Ceci est un example de diagramme avec le theme "forest"
-align: 'center'
-theme: 'base'
----
-graph TD
-A(Forest) --> B[/Another/]
-A --> C[End]
-  subgraph section
-  B
-  C
-  end
-```
-
-```{mermaid}
+%%{init: { "theme": "dark", "fontFamily": "monospace" } }%%
 ---
 caption: Ceci est un example de diagramme avec le theme "dark" et la police "monospace"
 align: 'center'
-theme: 'dark'
-fontFamily: 'monospace'
+---
+graph TD
+A(Forest) --> B[/Another/]
+A --> C[End]
+  subgraph section
+  B
+  C
+  end
+```
+
+```{mermaid}
+%%{init: { "theme": "neutral", "fontFamily": "monospace" } }%%
+---
+caption: Ceci est un example de diagramme avec le theme "neutral" et la police "monospace"
+align: 'center'
+---
+graph TD
+A(Forest) --> B[/Another/]
+A --> C[End]
+  subgraph section
+  B
+  C
+  end
+```
+
+```{mermaid}
+%%{init: { "theme": "base", "fontFamily": "comic sans ms" } }%%
+---
+caption: Ceci est un example de diagramme avec le theme "base" et la police "comic sans ms"
+align: 'center'
 ---
 graph TD
 A(Forest) --> B[/Another/]
@@ -97,9 +96,8 @@ A --> C[End]
 
 ```{mermaid}
 ---
-caption: Ceci est un example de diagramme avec le theme "neutral"
+caption: Ceci est un example de diagramme avec le theme de base
 align: 'center'
-theme: 'neutral'
 ---
 graph TD
 A(Forest) --> B[/Another/]
@@ -109,6 +107,8 @@ A --> C[End]
   C
   end
 ```
+
+
 
 
 ```{mermaid}

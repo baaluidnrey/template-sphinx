@@ -45,8 +45,8 @@ myst_enable_extensions=['html_image',"html_admonition"]
 
 # -- Options for mermaid output -------------------------------------------------
 
-mermaid_output_format = 'png'
-mermaid_params = ['--theme', 'forest', '--width', '600', '--backgroundColor', 'transparent']
+# mermaid_output_format = 'png'
+# mermaid_params = ['--theme', 'forest', '--width', '600', '--backgroundColor', 'transparent']
 
 
 # -- Options for HTML output -------------------------------------------------

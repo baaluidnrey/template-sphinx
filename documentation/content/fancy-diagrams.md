@@ -53,7 +53,7 @@ A --> C[End]
 ---
 caption: Ceci est un example de diagramme avec le theme "forest"
 align: 'center'
-theme: forest
+theme: 'forest'
 ---
 graph TD
 A(Forest) --> B[/Another/]
@@ -68,7 +68,7 @@ A --> C[End]
 ---
 caption: Ceci est un example de diagramme avec le theme "forest"
 align: 'center'
-theme: base
+theme: 'base'
 ---
 graph TD
 A(Forest) --> B[/Another/]
@@ -83,8 +83,8 @@ A --> C[End]
 ---
 caption: Ceci est un example de diagramme avec le theme "dark" et la police "monospace"
 align: 'center'
-theme: dark
-fontFamily: monospace
+theme: 'dark'
+fontFamily: 'monospace'
 ---
 graph TD
 A(Forest) --> B[/Another/]
@@ -99,7 +99,7 @@ A --> C[End]
 ---
 caption: Ceci est un example de diagramme avec le theme "neutral"
 align: 'center'
-theme: neutral
+theme: 'neutral'
 ---
 graph TD
 A(Forest) --> B[/Another/]

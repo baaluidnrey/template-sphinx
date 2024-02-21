@@ -49,6 +49,10 @@ mermaid_output_format = 'raw'
 mermaid_params = ['--theme', 'forest', '--width', '600', '--backgroundColor', 'transparent']
 
 
+source_suffix = {
+    '.md': 'markdown'
+}
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for

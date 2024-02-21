@@ -6,17 +6,18 @@ J'ai pas réussi à obtenir ce que je veux en suivant ce tuto.
 
 Qu'est-ce que ça donne avec celui-ci ? https://mariocarrion.com/2019/08/04/gitlab-mkdocs-mermaid-pages.html
 
-```{mermaid}
-    stateDiagram-v2
+```mermaid
+stateDiagram-v2
 
-        GoTo_launch --> GoTo_node : /move
-        GoTo_launch --> Haply_node
-        GoTo_launch --> Vib_node
-        GoTo_launch --> Error_Vib : /feedback
-        GoTo_launch --> Error_Haply : /feedback
+    GoTo_launch --> GoTo_node : /move
+    GoTo_launch --> Haply_node
+    GoTo_launch --> Vib_node
+    GoTo_launch --> Error_Vib : /feedback
+    GoTo_launch --> Error_Haply : /feedback
 ```
 
-.. mermaid::
+.. md-mermaid::
+    :name: cute-graph
 
     stateDiagram-v2
         state fork_state <<fork>>
@@ -30,8 +31,9 @@ Qu'est-ce que ça donne avec celui-ci ? https://mariocarrion.com/2019/08/04/gitl
             join_state --> State4
             State4 --> [*]
 
-.. mermaid::
-
+.. md-mermaid::
+    :name: other-graph
+    
     sequenceDiagram
         participant Alice
         participant Bob

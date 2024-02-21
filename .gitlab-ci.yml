@@ -19,6 +19,7 @@ pages:
   - pip install myst-parser
   - pip install sphinx-rtd-theme
   - pip install sphinxcontrib-mermaid
+  - pip install sphinx-immaterial
   - pip install npm
   - sphinx-build -b html ./documentation public
   artifacts:

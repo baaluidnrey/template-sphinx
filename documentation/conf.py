@@ -30,7 +30,7 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx_immaterial', 'sphinxcontrib.mermaid', 'sphinx.ext.imgconverter']
+extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinxcontrib.mermaid', 'sphinx.ext.imgconverter']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -60,7 +60,6 @@ html_logo = 'theme/logoIsir.png'
 
 html_theme_options = {
     'vcs_pageview_mode': 'display_gitlab',
-
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

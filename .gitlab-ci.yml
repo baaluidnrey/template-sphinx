@@ -8,7 +8,6 @@ pages:
   - pip install sphinx-rtd-theme
   - pip install sphinxcontrib-mermaid
   - pip install sphinx-immaterial==0.11.10
-  - pip install npm
   - sphinx-build -b html ./documentation public
   artifacts:
     paths:

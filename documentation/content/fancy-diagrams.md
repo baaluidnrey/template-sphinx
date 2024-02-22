@@ -1,6 +1,6 @@
-# Faire de jolis diagrammes avec Mermaid
+# Faire de jolis diagrammes avec *Mermaid*
 
-Mermaid permet d'insérer des diagrammes de différents types : *Flowchart*, *State Diagram*, *Gantt*, etc. (voir [ici](https://mermaid.js.org/ecosystem/tutorials.html)) dans des fichiers *Markdown*.
+*Mermaid* permet d'insérer des diagrammes de différents types : *Flowchart*, *State Diagram*, *Gantt*, etc. (voir [ici](https://mermaid.js.org/ecosystem/tutorials.html)) dans des fichiers *Markdown*.
 
 ```{mermaid}
 ---

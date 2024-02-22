@@ -9,7 +9,7 @@ La base de ces deux manières de l'utiliser est commune : **on écrit des fichie
 
 Les fichiers ainsi que les figures doivent se trouver dans le répertoire `documentation/content`. 
 
-Dans le cas de ce template, nous avons les fichiers suivants :
+Dans le cas de ce *template*, nous avons les fichiers suivants :
 
 ```bash
 [...]
@@ -57,19 +57,19 @@ Indices and tables
 ```
 
 
-## Utiliser le *template* lors de la création d'un dépôt
+## Utiliser le *template* lors de la création d'un nouveau projet
 
 à écrire, à mettre en place, etc.
 
 
 
-## Ajouter les éléments qui permettent de générer la documentation à un dépôt déjà existant
+## Intégrer le déploiement de documentation à un projet déjà existant
 
-### Ce dépôt ne contient pas de *pipeline* d'intégration continue
+### Le projet ne contient pas de *pipeline* d'intégration continue
 
 à écrire
 
-### On souhaite ajouter le déploiement vers *Pages* à une *pipeline* d'intégration continue déjà existante
+### Le projet contient déjà une *pipeline* d'intégration continue
 
 à écrire
 

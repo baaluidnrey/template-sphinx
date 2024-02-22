@@ -11,3 +11,5 @@ il faut regarder un peu tout ça pour voir comment configurer pages
 ola, ça compile ?
 
 il se passe des choses très étranges. cette section n'est pas visible depuis l'index mais bien depuis les autres pages
+
+il faut regarder plus en détails html statique, etc.

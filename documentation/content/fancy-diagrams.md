@@ -1,11 +1,11 @@
 # Faire de jolis diagrammes avec Mermaid
 
-Mermaid permet d'insérer des diagrammes de différents types : *Flowchart*, *State Diagram*, *Gantt*, etc. [1][1] (voir [ici](https://mermaid.js.org/ecosystem/tutorials.html)) dans des fichiers *Markdown*.
+Mermaid permet d'insérer des diagrammes de différents types : *Flowchart*, *State Diagram*, *Gantt*, etc. (voir [ici](https://mermaid.js.org/ecosystem/tutorials.html)) dans des fichiers *Markdown*.
 
 ```{mermaid}
 ---
 title: Simple sample
-caption: Voici un example de diagramme d'état [2][2] [[source]](https://mermaid.js.org/syntax/stateDiagram.html)
+caption: Voici un example de diagramme d'état [[source]](https://mermaid.js.org/syntax/stateDiagram.html)
 ---
 stateDiagram-v2
     [*] --> Still
@@ -20,7 +20,7 @@ stateDiagram-v2
 ```{mermaid}
 ---
 title: Animal example
-caption: Voici un example de diagramme de classe [3][3] [[source]](https://mermaid.js.org/syntax/classDiagram.html)
+caption: Voici un example de diagramme de classe [[source]](https://mermaid.js.org/syntax/classDiagram.html)
 ---
 classDiagram
     note "From Duck till Zebra"
@@ -63,9 +63,9 @@ classDiagram
   ```
 
 
-## Utiliser le graphique comme une figure
+## Utiliser le diagramme comme une figure
 
-Il est possible d'ajouter une légende, de positionner la figure, etc. en ajoutant des instructions *Markdown* avant le diagramme [4][4] (voir [ici](https://platen.io/modules/platen/markup/mermaid/)).
+Il est possible d'ajouter une légende, de positionner la figure, etc. en ajoutant des instructions *Markdown* avant le diagramme (voir [ici](https://platen.io/modules/platen/markup/mermaid/)).
 
   ```markdown
     ```{mermaid}
@@ -102,7 +102,7 @@ A --> C[End]
 
 ## Intégration dans la *pipeline* d'intégration continue
 
-Cette fonctionnalité est ajoutée dans la *pipeline* d'intégration continue qui déploie la documentation. Pour la mettre en place, on s'est appuyé sur le contenu de [ce tutoriel](https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/). [5][5]
+Cette fonctionnalité est ajoutée dans la *pipeline* d'intégration continue qui déploie la documentation. Pour la mettre en place, on s'est appuyé sur le contenu de [ce tutoriel](https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/).
 
 1. dans le fichier `.gitlab-ci.yaml` :
     - installation de `sphinxcontrib-mermaid` dans le fichier 
@@ -315,10 +315,9 @@ align: 'center'
         end
 ```
 
-## Ressources
+## Références
 
-[1] (https://mermaid.js.org/ecosystem/tutorials.html)
-[2] (https://mermaid.js.org/syntax/stateDiagram.html)
-[3] (https://mermaid.js.org/syntax/classDiagram.html)
-[4] (https://platen.io/modules/platen/markup/mermaid/)
-[5] (https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/)
+- [Mermaid Tutorials](https://mermaid.js.org/ecosystem/tutorials.html)
+- [Platen.io - Mermaid Diagrams](https://platen.io/modules/platen/markup/mermaid/)
+- [Sphinxcontrib-mermaid documentation](https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/)
+- [Mermaid Theme Configurations](https://mermaid.js.org/config/theming.html)

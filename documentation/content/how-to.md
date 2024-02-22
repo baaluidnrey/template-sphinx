@@ -94,7 +94,23 @@ Indices and tables
 
 ### Le projet contient déjà une *pipeline* d'intégration continue
 
-à écrire
+On reprend les mêmes étapes que pour le projet sans *pipeline* d'intégration continue à une différence près :
+
+Au lieu de copier le fichier `.gitlab-ci.yml`, on ajoute le contenu relatif au déploiement sur pages.
+
+```yml
+pages:
+stage: deploy
+script:
+- pip install -U sphinx
+- pip install -r ./documentation/requirements.txt
+- sphinx-build -b html ./documentation public
+artifacts:
+   paths:
+   - public
+rules:
+   - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+```
 
 
 

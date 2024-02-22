@@ -1,17 +1,8 @@
-# Overview of the template
+# Vue d'ensemble du *template*
 
-## Purpose
+## Motivation
 
-This template has been created to enable everybody at the lab to create super fancy documentation associated to a project.
-
-##  Ressources
-
-The content of this template is based on the following ressources :
-
-1. https://gitlab.com/pages/sphinx
-2. https://coderefinery.github.io/documentation/sphinx/
-3. https://coderefinery.github.io/documentation/gh_workflow/
-
+Ce *template* a été créé pour permettre de générer automatiquement de la documentation sous forme de page web avec très peu d'efforts. Le contenu des pages web est automatiquement généré avec *Sphinx* en s'appuyant sur des fichiers écrits en *Markdown*.
 
 ## Charte graphique
 
@@ -46,3 +37,12 @@ Le template suit la charte graphique de l'ISIR, à savoir :
             <td>Hexa : #012235</td>
         </tr>
     </table>
+
+
+##  Références
+
+Le contenu de ce *template* est très fortement inspiré des ressources mises à disposition par *CodeRefinery* :
+- https://coderefinery.github.io/documentation/sphinx/
+- https://coderefinery.github.io/documentation/gh_workflow/
+
+Il utilise le thème fourni par [Read the Docs](https://about.readthedocs.com/?ref=readthedocs.org), dont les couleurs et la police ont été modifiées pour respecter la charte graphique de l'ISIR.

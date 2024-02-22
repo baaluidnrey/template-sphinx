@@ -11,16 +11,16 @@ Les fichiers ainsi que les figures doivent se trouver dans le répertoire `docum
 
 Dans le cas de ce template, nous avons les fichiers suivants :
 
-    ```bash
-    [...]
-    ├── content
-    │   ├── fancy-diagrams.md
-    │   ├── figures
-    │   ├── how-to.md
-    │   └── overview.md
-    ├── index.rst
-    [...]
-    ```
+```bash
+[...]
+├── content
+│   ├── fancy-diagrams.md
+│   ├── figures
+│   ├── how-to.md
+│   └── overview.md
+├── index.rst
+[...]
+```
 
 Il sont été intégrés dans `index.rst` de la manière suivante :
 

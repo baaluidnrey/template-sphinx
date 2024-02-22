@@ -18,7 +18,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'ISIR template with documentation for gitlab'
+project = 'Template de déploiement de documentation en HTML'
 copyright = '2024, ISIR, Sorbonne Universite, CNRS' 
 author = 'Author'
 release = '0.1'

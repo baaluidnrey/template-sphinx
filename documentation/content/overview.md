@@ -47,6 +47,7 @@ Le contenu de ce *template* est très fortement inspiré des ressources mises à
 
 Il utilise le thème fourni par [Read the Docs](https://about.readthedocs.com/?ref=readthedocs.org), dont les couleurs et la police ont été modifiées pour respecter la charte graphique de l'ISIR.
 
+![Texte alternatif](./figures/chat.png "Titre de l'image")
 
 <table align="center">
     <tr>

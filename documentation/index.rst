@@ -1,9 +1,10 @@
 .. ISIR documentation template
 
-ISIR template with documentation for gitlab
-===========================================
+Template de déploiement de documentation en HTML
+================================================
 
-Blablablabla.
+Les pages web que vous parcourez ont été générées automatiquement.
+Leur contenu vous explique comment utiliser ce *template* pour en faire de même.
 
 .. toctree::
    :maxdepth: 2

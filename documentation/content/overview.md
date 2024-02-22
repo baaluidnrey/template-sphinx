@@ -52,16 +52,16 @@ Il utilise le thème fourni par [Read the Docs](https://about.readthedocs.com/?r
 <table align="center">
     <tr>
         <th>
-            <img src="../theme/logo-isir.png" style="width:100%">
+            <img src="../theme/logo-isir.png" style="width:100%"/>
         </th>
         <th>
-            <img src="../theme/logo-su.jpg" style="width:30%">
+            <img src="../theme/logo-su.jpg" style="width:30%"/>
         </th>
         <th>
-            <img src="../theme/logo-cnrs.png" style="width:30%">
+            <img src="../theme/logo-cnrs.png" style="width:30%"/>
         </th>
         <th>
-            <img src="../theme/logo-inserm.png" style="width:50%">
+            <img src="../theme/logo-inserm.png" style="width:50%"/>
         </th>
     </tr>
 </table>

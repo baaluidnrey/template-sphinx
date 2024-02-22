@@ -4,9 +4,7 @@ pages:
   stage: deploy
   script:
   - pip install -U sphinx
-  - pip install myst-parser
-  - pip install sphinx-rtd-theme
-  - pip install sphinxcontrib-mermaid
+  - pip install -r ./documentation/requirements.txt
   - sphinx-build -b html ./documentation public
   artifacts:
     paths:

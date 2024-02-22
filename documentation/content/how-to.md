@@ -59,12 +59,6 @@ Indices and tables
 **La documentation est déployée sur *Pages* à chaque `git push` sur la branche principale** grâce à l'intégration continue mise en place.
 
 
-## Configurer *Pages*
-
-voir https://gitlab.isir.upmc.fr/help/user/project/pages/pages_access_control
-
-
-
 ## Utiliser le *template* lors de la création d'un nouveau projet
 
 à écrire, à mettre en place, etc.

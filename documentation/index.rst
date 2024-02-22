@@ -12,8 +12,8 @@ Leur contenu vous explique comment utiliser ce *template* pour en faire de même
 
    content/overview.md
    content/how-to.md
+   content/pages-config.md
    content/fancy-diagrams.md
-
 
 .. toctree::
    :maxdepth: 2

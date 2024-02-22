@@ -54,7 +54,7 @@ mermaid_version = "" # use of local file _static/js/mermaid_isir.js
 #
 html_theme = 'sphinx_rtd_theme'
 
-html_logo = 'theme/logoIsir.png'
+html_logo = 'theme/logo-isir.png'
 
 html_theme_options = {
     'vcs_pageview_mode': 'display_gitlab',

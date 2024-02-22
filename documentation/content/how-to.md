@@ -3,9 +3,9 @@
 Il y a principalement deux manières d'utiliser ce *template* :
 
 1. comme *template* lors de la création d'un dépôt;
-2. sur un dépôt gitlab déjà existant.
+2. en ajoutant certains éléments à un dépôt gitlab déjà existant.
 
-La base de ces deux manières de l'utiliser est commune : on écrit des fichiers avec le langage *Markdown* qu'on vient ajouter à un index.
+La base de ces deux manières de l'utiliser est commune : **on écrit des fichiers avec le langage *Markdown* qu'on vient ajouter à un index**.
 
 Les fichiers ainsi que les figures doivent se trouver dans le répertoire `documentation/content`. 
 

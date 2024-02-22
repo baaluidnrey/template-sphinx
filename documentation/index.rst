@@ -17,7 +17,7 @@ Leur contenu vous explique comment utiliser ce *template* pour en faire de même
 
 .. toctree::
    :maxdepth: 2
-   :caption: `{A} propos
+   :caption: A propos
 
    ISIR <https://www.isir.upmc.fr/>
 

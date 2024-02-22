@@ -56,7 +56,7 @@ Indices and tables
 .. * :ref:`search`
 ```
 
-La documentation est déployée sur *Pages* à chaque `git push` sur la branche principale grâce à l'intégration continue mise en place.
+**La documentation est déployée sur *Pages* à chaque `git push` sur la branche principale** grâce à l'intégration continue mise en place.
 
 
 ## Utiliser le *template* lors de la création d'un nouveau projet

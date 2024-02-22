@@ -89,7 +89,7 @@ Indices and tables
 4. Ajouter votre documentation.
 
    - Effacer les fichiers du répertoire `content`;
-   - Ecrivez de jolis fichiers *Markdown*;
+   - Ecrivez de jolis fichiers *Markdown* dans ce même répertoire;
    - Modifier le fichier `index.rst` pour intégrer ces fichiers.
 
 ### Le projet contient déjà une *pipeline* d'intégration continue

@@ -2,6 +2,8 @@
 
 *Mermaid* permet d'insérer des diagrammes de différents types : *Flowchart*, *State Diagram*, *Gantt*, etc. (voir [ici](https://mermaid.js.org/ecosystem/tutorials.html)) dans des fichiers *Markdown*.
 
+**Remarque** : Il est aussi tout à fait possible d'intégrer des images, ça marche aussi !
+
 ```{mermaid}
 ---
 title: Simple sample

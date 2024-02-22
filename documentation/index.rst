@@ -8,7 +8,7 @@ Leur contenu vous explique comment utiliser ce *template* pour en faire de même
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
+   :caption: Contenu
 
    content/overview.md
    content/how-to.md
@@ -17,7 +17,7 @@ Leur contenu vous explique comment utiliser ce *template* pour en faire de même
 
 .. toctree::
    :maxdepth: 2
-   :caption: About
+   :caption: A propos
 
    ISIR <https://www.isir.upmc.fr/>
 

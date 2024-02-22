@@ -49,6 +49,8 @@ Il utilise le thème fourni par [Read the Docs](https://about.readthedocs.com/?r
 
 ![Texte alternatif](./figures/chat.png "Titre de l'image")
 
+<img src="../theme/logo-isir.png" style="width:100%"/>
+
 <table align="center">
     <tr>
         <th>

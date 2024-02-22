@@ -2,7 +2,7 @@
 
 ## Motivation
 
-Ce *template* a été créé pour permettre de générer automatiquement de la documentation sous forme de page web avec très peu d'efforts. Le contenu des pages web est automatiquement généré avec *Sphinx* en s'appuyant sur des fichiers écrits en *Markdown*.
+Ce *template* a été créé pour permettre de générer automatiquement de la documentation sous forme de pages web avec très peu d'efforts. Le contenu des pages web est automatiquement généré avec *Sphinx* en s'appuyant sur des fichiers écrits en *Markdown*.
 
 ## Charte graphique
 
@@ -42,7 +42,7 @@ Le template suit la charte graphique de l'ISIR, à savoir :
 ##  Références
 
 Le contenu de ce *template* est très fortement inspiré des ressources mises à disposition par *CodeRefinery* :
-- https://coderefinery.github.io/documentation/sphinx/
-- https://coderefinery.github.io/documentation/gh_workflow/
+- [CodeRefinery - Sphinx and Markdown](https://coderefinery.github.io/documentation/sphinx/)
+- [CodeRefinery - Deploying Sphinx documentation to GitHub Pages](https://coderefinery.github.io/documentation/gh_workflow/)
 
 Il utilise le thème fourni par [Read the Docs](https://about.readthedocs.com/?ref=readthedocs.org), dont les couleurs et la police ont été modifiées pour respecter la charte graphique de l'ISIR.

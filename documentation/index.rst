@@ -12,9 +12,6 @@ Leur contenu vous explique comment utiliser ce *template* pour en faire de même
 
    content/overview.md
    content/how-to.md
-
-   **Remarque** : à partir de là, on aborde des fonctions plus avancées et non nécessaires pour la documentation.
-
    content/fancy-diagrams.md
 
 

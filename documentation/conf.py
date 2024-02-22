@@ -19,7 +19,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Template de déploiement de documentation en HTML'
-copyright = '2024, ISIR, Sorbonne Universite, CNRS' 
+copyright = '2024, ISIR, Sorbonne Université, CNRS, INSERM' 
 author = 'Author'
 release = '0.1'
 

@@ -56,6 +56,8 @@ Indices and tables
 .. * :ref:`search`
 ```
 
+La documentation est déployée sur *Pages* à chaque `git push` sur la branche principale grâce à l'intégration continue mise en place.
+
 
 ## Utiliser le *template* lors de la création d'un nouveau projet
 
@@ -67,7 +69,28 @@ Indices and tables
 
 ### Le projet ne contient pas de *pipeline* d'intégration continue
 
-à écrire
+1. Copier tout le contenu du répertoire `documentation` à la racine du projet;
+
+2. Ajouter le fichier `.gitlab-ci.yml` à la racine du projet;
+
+3. Ajouter les informations liées au projet;
+
+   Dans le fichier `documentation/conf.py`, éditer les lignes suivantes :
+
+   ```python
+   # -- Project information -----------------------------------------------------
+
+   project = 'Template de déploiement de documentation en HTML'
+   copyright = '2024, ISIR, Sorbonne Université, CNRS, INSERM' 
+   author = 'Author'
+   release = '0.1'
+   ```
+
+4. Ajouter votre documentation.
+
+   - Effacer les fichiers du répertoire `content`;
+   - Ecrivez de jolis fichiers *Markdown*;
+   - Modifier le fichier `index.rst` pour intégrer ces fichiers.
 
 ### Le projet contient déjà une *pipeline* d'intégration continue
 

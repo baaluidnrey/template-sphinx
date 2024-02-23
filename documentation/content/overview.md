@@ -11,10 +11,10 @@ Le template suit la charte graphique de l'ISIR, à savoir :
 - Police : *Lato*
 - Couleurs :
 
-    <table align="center" cellspacing="50">
+    <table align="center">
         <tr>
             <th>
-                <svg height = "40" width = "40" xmlns="http://www.w3.org/2000/svg">
+                <svg height = "40" width = "200" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="20" cy="20" r="20" fill="#0090CD" />
                 </svg>
             </th>
@@ -46,16 +46,16 @@ Le template suit la charte graphique de l'ISIR, à savoir :
 <table align="center" style="width: 100%">
     <tr>
         <th>
-            <img src="./content/figures/logos/logo-isir.png"/>
+            <img src="figures/logos/logo-isir.png"/>
         </th>
         <th>
-            <img src="./content/figures/logos/logo-su.png"/>
+            <img src="figures/logos/logo-su.png"/>
         </th>
         <th>
-            <img src="./content/figures/logos/logo-cnrs.png"/>
+            <img src="figures/logos/logo-cnrs.png"/>
         </th>
         <th>
-            <img src="./content/figures/logos/logo-inserm.png"/>
+            <img src="figures/logos/logo-inserm.png"/>
         </th>
     </tr>
 </table>

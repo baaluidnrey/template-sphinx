@@ -8,13 +8,13 @@ Ce *template* a été créé pour permettre de générer automatiquement de la d
 
 Le template suit la charte graphique de l'ISIR, à savoir :
 
-- Police : Lato
+- Police : *Lato*
 - Couleurs :
 
-    <table align="center">
+    <table align="center" style="width: 80%">
         <tr>
             <th>
-                <svg height = "40" width = "200" xmlns="http://www.w3.org/2000/svg">
+                <svg height = "40" width = "40" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="20" cy="20" r="20" fill="#0090CD" />
                 </svg>
             </th>
@@ -38,6 +38,24 @@ Le template suit la charte graphique de l'ISIR, à savoir :
         </tr>
     </table>
 
+- Logos : Les logos du laboratoire et des tutelles sont dans le pied de page.
+
+    <table align="center" style="width: 100%">
+        <tr>
+            <th>
+                <img src="/figures/logos/logo-isir.png"/>
+            </th>
+            <th>
+                <img src="/figures/logos/logo-su.png"/>
+            </th>
+            <th>
+                <img src="/figures/logos/logo-cnrs.png"/>
+            </th>
+            <th>
+                <img src="/figures/logos/logo-inserm.png"/>
+            </th>
+        </tr>
+    </table>
 
 ##  Références
 

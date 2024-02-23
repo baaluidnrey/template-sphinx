@@ -1,5 +1,14 @@
 image: python:3.8-alpine
-    
+
+test:
+  stage: test
+  script:
+  - pip install -U sphinx
+  - pip install -r ./documentation/requirements.txt
+  - sphinx-build -b html ./documentation public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
 pages:
   stage: deploy
   script:

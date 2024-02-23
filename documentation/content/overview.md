@@ -11,7 +11,7 @@ Le template suit la charte graphique de l'ISIR, à savoir :
 - Police : *Lato*
 - Couleurs :
 
-    <table align="center" style="width: 80%">
+    <table align="center" cellspacing="50">
         <tr>
             <th>
                 <svg height = "40" width = "40" xmlns="http://www.w3.org/2000/svg">
@@ -40,22 +40,25 @@ Le template suit la charte graphique de l'ISIR, à savoir :
 
 - Logos : Les logos du laboratoire et des tutelles sont dans le pied de page.
 
-    <table align="center" style="width: 100%">
-        <tr>
-            <th>
-                <img src="./figures/logos/logo-isir.png"/>
-            </th>
-            <th>
-                <img src="./figures/logos/logo-su.png"/>
-            </th>
-            <th>
-                <img src="./figures/logos/logo-cnrs.png"/>
-            </th>
-            <th>
-                <img src="./figures/logos/logo-inserm.png"/>
-            </th>
-        </tr>
-    </table>
+![Texte alternatif](./figures/logos/logo-isir.png "Titre de l'image")
+
+
+<table align="center" style="width: 100%">
+    <tr>
+        <th>
+            <img src="./figures/logos/logo-isir.png"/>
+        </th>
+        <th>
+            <img src="./figures/logos/logo-su.png"/>
+        </th>
+        <th>
+            <img src="./figures/logos/logo-cnrs.png"/>
+        </th>
+        <th>
+            <img src="./figures/logos/logo-inserm.png"/>
+        </th>
+    </tr>
+</table>
 
 ##  Références
 

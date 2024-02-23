@@ -57,6 +57,23 @@ Le template suit la charte graphique de l'ISIR, à savoir :
     </tr>
 </table>
 
+<table align="center" style="width: 100%">
+    <tr>
+        <th>
+            <img src="./figures/logos/logo-isir.png"/>
+        </th>
+        <th>
+            <img src="./figures/logos/logo-su.png"/>
+        </th>
+        <th>
+            <img src="./figures/logos/logo-cnrs.png"/>
+        </th>
+        <th>
+            <img src="./figures/logos/logo-inserm.png"/>
+        </th>
+    </tr>
+</table>
+
 ##  Références
 
 Le contenu de ce *template* est très fortement inspiré des ressources mises à disposition par *CodeRefinery* :

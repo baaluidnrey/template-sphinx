@@ -15,3 +15,7 @@ il se passe des choses très étranges. cette section n'est pas visible depuis l
 il faut regarder plus en détails html statique, etc.
 
 Je ne comprends pas pourquoi les changements ne s'appliquent pas tout de suite ?
+
+comment faire pour insérer du contenu dans des balises html ? exemple, des images
+
+https://www.sphinx-doc.org/en/master/usage/configuration.html

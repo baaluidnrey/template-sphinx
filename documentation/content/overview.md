@@ -40,9 +40,15 @@ Le template suit la charte graphique de l'ISIR, à savoir :
 
 - Logos : Les logos du laboratoire et des tutelles sont dans le pied de page.
 
+markdown :
+
 ![logo isir](./figures/logos/logo-isir.png)
 
+figures/logos/logo-isir.png :
+
 <img src="figures/logos/logo-isir.png"/>
+
+/content/figures/logos/logo-isir.png :
 
 <img src="/content/figures/logos/logo-isir.png"/>
 
@@ -56,10 +62,10 @@ Le template suit la charte graphique de l'ISIR, à savoir :
             <img src="figures/logos/logo-su.png"/>
         </th>
         <th>
-            <img src="figures/logos/logo-cnrs.png"/>
+            <img src="./figures/logos/logo-cnrs.png"/>
         </th>
         <th>
-            <img src="figures/logos/logo-inserm.png"/>
+            <img src="/static/../content/figures/logos/logo-inserm.png"/>
         </th>
     </tr>
 </table>

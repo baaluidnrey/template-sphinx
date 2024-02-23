@@ -42,6 +42,10 @@ Le template suit la charte graphique de l'ISIR, à savoir :
 
 ![logo isir](./figures/logos/logo-isir.png)
 
+<img src="figures/logos/logo-isir.png"/>
+
+<img src="/content/figures/logos/logo-isir.png"/>
+
 
 <table align="center" style="width: 100%">
     <tr>

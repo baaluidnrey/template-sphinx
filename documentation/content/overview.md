@@ -70,6 +70,23 @@ figures/logos/logo-isir.png :
     </tr>
 </table>
 
+<table align="center" style="width: 100%">
+    <tr>
+        <th>
+            <img src="/_static/logos/logo-isir.png"/>
+        </th>
+        <th>
+            <img src="/_static/logos/logo-su.png"/>
+        </th>
+        <th>
+            <img src="/_static/logos/logo-cnrs.png"/>
+        </th>
+        <th>
+            <img src="/_static/logos/logo-inserm.png"/>
+        </th>
+    </tr>
+</table>
+
 ##  Références
 
 Le contenu de ce *template* est très fortement inspiré des ressources mises à disposition par *CodeRefinery* :

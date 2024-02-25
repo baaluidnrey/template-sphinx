@@ -5,7 +5,7 @@ test:
   script:
   - pip install -U sphinx
   - pip install -r ./documentation/requirements.txt
-  - sphinx-build -b html ./documentation public
+  - sphinx-build -b html ./documentation/content public
   rules:
     - if: $CI_COMMIT_BRANCH == "main"
 

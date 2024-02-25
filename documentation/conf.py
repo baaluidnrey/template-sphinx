@@ -49,22 +49,25 @@ mermaid_version = "" # use of local file _static/js/mermaid_isir.js
 
 # -- Options for HTML output -------------------------------------------------
 
+numfig = True
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
 
-html_logo = 'theme/logo-isir.png'
-
 html_theme_options = {
     'vcs_pageview_mode': 'display_gitlab',
 }
+
+html_logo = 'theme/logo-isir.png'
+html_favicon = ""
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
-html_extra_path = ["content/figures"]
+html_extra_path = ["content"]
 
 # Changes of colors and font
 html_css_files = [

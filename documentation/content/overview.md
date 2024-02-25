@@ -60,19 +60,21 @@ Le template suit la charte graphique de l'ISIR, à savoir :
 <table align="center" style="width: 100%">
     <tr>
         <th>
-            <img src="/content/figures/logos/logo-isir.png"/>
+            <img src="/figures/logos/logo-isir.png"/>
         </th>
         <th>
-            <img src="/content/figures/logos/logo-su.png"/>
+            <img src="/figures/logos/logo-su.png"/>
         </th>
         <th>
-            <img src="/content/figures/logos/logo-cnrs.png"/>
+            <img src="/figures/logos/logo-cnrs.png"/>
         </th>
         <th>
-            <img src="/content/figures/logos/logo-inserm.png"/>
+            <img src="/figures/logos/logo-inserm.png"/>
         </th>
     </tr>
 </table>
+
+![test image](./figures/logos/logo-isir.png)
 
 ##  Références
 

@@ -43,23 +43,6 @@ Le template suit la charte graphique de l'ISIR, à savoir :
 <table align="center" style="width: 100%">
     <tr>
         <th>
-            <img src="/_static/logos/logo-isir.png"/>
-        </th>
-        <th>
-            <img src="/_static/logos/logo-su.png"/>
-        </th>
-        <th>
-            <img src="/_static/logos/logo-cnrs.png"/>
-        </th>
-        <th>
-            <img src="/_static/logos/logo-inserm.png"/>
-        </th>
-    </tr>
-</table>
-
-<table align="center" style="width: 100%">
-    <tr>
-        <th>
             <img src="./figures/logos/logo-isir.png"/>
         </th>
         <th>
@@ -73,8 +56,6 @@ Le template suit la charte graphique de l'ISIR, à savoir :
         </th>
     </tr>
 </table>
-
-![test image](./figures/logos/logo-isir.png)
 
 ##  Références
 

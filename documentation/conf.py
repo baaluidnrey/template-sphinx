@@ -49,6 +49,8 @@ mermaid_version = "" # use of local file _static/js/mermaid_isir.js
 
 # -- Options for HTML output -------------------------------------------------
 
+root_doc = "content/index.rst"
+
 numfig = True
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for

@@ -23,8 +23,9 @@ copyright = '2024, ISIR, Sorbonne Université, CNRS, INSERM'
 author = 'Author'
 release = '0.1'
 
-
 # -- General configuration ---------------------------------------------------
+
+conf_py_path = "/content/" # with leading and trailing slash
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -33,7 +34,7 @@ release = '0.1'
 extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinxcontrib.mermaid']
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['../_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -49,7 +50,7 @@ mermaid_version = "" # use of local file _static/js/mermaid_isir.js
 
 # -- Options for HTML output -------------------------------------------------
 
-root_doc = "content/index"
+# root_doc = 'content/index'
 
 numfig = True
 
@@ -62,14 +63,14 @@ html_theme_options = {
     'vcs_pageview_mode': 'display_gitlab',
 }
 
-html_logo = 'theme/logo-isir.png'
-html_favicon = ""
+html_logo = '../_static/logos/logo-isir.png'
+html_favicon = '../_static/logos/logo-isir_32x32.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["_static"]
-html_extra_path = ["content"]
+html_static_path = ["../_static"]
+html_extra_path = ["."]
 
 # Changes of colors and font
 html_css_files = [

@@ -49,7 +49,8 @@ mermaid_version = "" # use of local file _static/js/mermaid_isir.js
 
 # -- Options for HTML output -------------------------------------------------
 
-root_doc = "content/index.rst"
+root_doc = "./content/index.rst"
+master_doc = "./content/index.rst"
 
 numfig = True
 

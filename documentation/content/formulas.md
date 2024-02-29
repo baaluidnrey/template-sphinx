@@ -19,9 +19,15 @@ Avec une autre syntaxe ?
 
 \\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
 
+This creates an equation:
+```{math}
+a^2 + b^2 = c^2
+```
+
+This is an in-line equation, {math}`a^2 + b^2 = c^2`, embedded in text.
+
 ## Ressources
 
 - https://www.sphinx-doc.org/en/master/usage/extensions/math.html
-- https://sphinx-rtd-trial.readthedocs.io/en/latest/ext/math.html
 - https://www.mathjax.org/
-- https://docs.mathjax.org/en/latest/
+- https://coderefinery.github.io/documentation/sphinx/#exercise-sphinx-and-latex

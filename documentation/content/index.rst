@@ -15,6 +15,7 @@ Leur contenu vous explique comment utiliser ce *template* pour en faire de même
    markdown.md
    pages-config.md
    fancy-diagrams.md
+   formulas.md
 
 .. toctree::
    :maxdepth: 2

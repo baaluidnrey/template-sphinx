@@ -31,7 +31,7 @@ conf_py_path = "/content/" # with leading and trailing slash
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinxcontrib.mermaid']
+extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinxcontrib.mermaid', 'sphinx.ext.mathjax']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../_templates']
@@ -44,8 +44,14 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 myst_enable_extensions=['html_image',"html_admonition"]
 
 
-# -- Options for mermaid output -------------------------------------------------
+# -- Options for mermaid output ----------------------------------------------
 mermaid_version = "" # use of local file _static/js/mermaid_isir.js
+
+
+
+# -- Options for math output -------------------------------------------------
+
+
 
 
 # -- Options for HTML output -------------------------------------------------

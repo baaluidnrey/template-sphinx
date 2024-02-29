@@ -2,7 +2,7 @@
 
 Il y a principalement deux manières d'utiliser ce *template* :
 
-1. comme *template* lors de la création d'un dépôt (oas encore réalisé);
+1. comme *template* lors de la création d'un dépôt (pas encore réalisé);
 2. en ajoutant certains éléments à un dépôt gitlab déjà existant.
 
 La base de ces deux manières de l'utiliser est commune : **on écrit des fichiers avec le langage *Markdown* qu'on vient ajouter à un index**.

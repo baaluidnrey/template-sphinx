@@ -58,11 +58,8 @@ mermaid_version = "" # use of local file _static/js/mermaid_isir.js
 
 
 
-
 # -- Options for tabs output -------------------------------------------------
 
-sphinx_tabs_valid_builders = ['linkcheck']
-sphinx_tabs_disable_tab_closing = True
 
 
 # -- Options for HTML output -------------------------------------------------

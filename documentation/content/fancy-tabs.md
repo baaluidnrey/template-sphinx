@@ -1,98 +1,192 @@
 # Utiliser des onglets
 
-Reprenons une partie de l'exemple de la documentation de sphinx mais écrivons le en langage `Markdown` :
+L'extension `sphinx-tabs` permet d'ajouter des onglets à la page HTML.
 
+Voici un exemple issu de la documentation de *CodeRefinery* ([html](https://coderefinery.github.io/installation/editors/), [raw](https://raw.githubusercontent.com/coderefinery/installation/main/content/editors.md)), qui utilise la syntaxe *Markdown* (un peu différente de la syntaxe *reST* (*reStructuredText*) utilisée sur la documentation de *Sphinx*).
 
-`````{tabs}
+```markdown
+    `````{tabs}
+      ````{tab} Windows
 
-    ````{code-tab} c
-        C Main Function
-    ````
+      Nano is installed as part of the Git for Windows installer and no
+      extra installation is needed.  It is available from the git-bash
+      shell.
+      ````
 
-    ````{code-tab} c++
-        C++ Main Function
-    ````
+      ````{tab} macOS
 
-    ````{code-tab} py
-        Python Main Function
-    ````
+      Nano is available by default.
+      ````
 
-    ````{code-tab} julia
-        Julia Main Function
-    ````
-`````
+      ````{tab} Linux
 
-Je remets du texte pour séparer.
-
-`````{tabs}
-
-    ````{code-tab} c
-        int main(const int argc, const char **argv) {
-        return 0;
-    ````
-
-    ````{code-tab} c++
-        int main(const int argc, const char **argv) {
-        return 0;
-    ````
-
-    ````{code-tab} py
-        def main():
-        return
-    ````
-
-    ````{code-tab} julia
-        class Main {
-            public static void main(String[] args) {
-            }
-        }
-    ````
-`````
-
-Avec une autre syntaxe ?
+      Nano is available by default in most operating systems.  If not, you
+      can install it via your software center.
+      ````
+    `````
+```
 
 `````{tabs}
-  ````{group-tab} Windows
+  ````{tab} Windows
 
   Nano is installed as part of the Git for Windows installer and no
   extra installation is needed.  It is available from the git-bash
   shell.
   ````
 
-  ````{group-tab} macOS
+  ````{tab} macOS
 
   Nano is available by default.
   ````
 
-  ````{group-tab} Linux
+  ````{tab} Linux
 
   Nano is available by default in most operating systems.  If not, you
   can install it via your software center.
+  ````
+`````
+
+**Remarque** : Ne pas insérer de tabulation à l'intérieur de la balise `tabs`.
+
+
+## Et les lier sur toute la page
+
+Cette fois-ci (maintenant qu'on sait comment écrire en *Markdown*) on reprend l'exemple de la documentation de `sphinx-tabs`.
+
+```markdown
+    `````{tabs}
+      ````{group-tab} Linux
+
+      Linux tab content - tab set 1
+      ````
+
+      ````{group-tab} macOS
+
+      Mac OSX tab content - tab set 1
+      ````
+
+      ````{group-tab} Windows
+  
+      Windows tab content - tab set 1
+      ````
+      `````
+  
+      `````{tabs}
+      ````{group-tab} Linux
+  
+      Linux tab content - tab set 2
+      ````
+  
+      ````{group-tab} macOS
+  
+      Mac OSX tab content - tab set 2
+      ````
+  
+      ````{group-tab} Windows
+  
+      Windows tab content - tab set 2
+      ````
+    `````
+```
+
+
+`````{tabs}
+  ````{group-tab} Linux
+
+  Linux tab content - tab set 1
+  ````
+
+  ````{group-tab} macOS
+
+  Mac OSX tab content - tab set 1
+  ````
+
+  ````{group-tab} Windows
+
+  Windows tab content - tab set 1
   ````
 `````
 
 `````{tabs}
-  ````{group-tab} Windows
+  ````{group-tab} Linux
 
-  Nano is installed as part of the Git for Windows installer and no
-  extra installation is needed.  It is available from the git-bash
-  shell.
+  Linux tab content - tab set 2
   ````
 
   ````{group-tab} macOS
 
-  Nano is available by default.
+  Mac OSX tab content - tab set 2
   ````
 
-  ````{group-tab} Linux
+  ````{group-tab} Windows
 
-  Nano is available by default in most operating systems.  If not, you
-  can install it via your software center.
+  Windows tab content - tab set 2
   ````
 `````
 
 
+## Pour mettre du code dans différents langages
 
-## Ressources
+Reprenons une partie de l'exemple de la documentation de sphinx mais écrivons le en langage `Markdown`.
 
-- (https://sphinx-tabs.readthedocs.io/en/latest/)
+```markdown
+    `````{tabs}
+      ````{code-tab} c++
+  
+      C++ Main Function
+      ````
+  
+      ````{code-tab} py
+  
+      Python Main Function
+      ````
+      `````
+  
+      `````{tabs}
+      ````{code-tab} c++
+  
+      int main(const int argc, const char **argv) {
+          return 0;
+      }
+      ````
+  
+      ````{code-tab} py
+  
+      def main():
+          return
+      ````
+    `````
+```
+
+
+`````{tabs}
+  ````{code-tab} c++
+  
+  C++ Main Function
+  ````
+  
+  ````{code-tab} py
+  
+  Python Main Function
+  ````
+`````
+
+`````{tabs}
+  ````{code-tab} c++
+  
+  int main(const int argc, const char **argv) {
+      return 0;
+  }
+  ````
+  
+  ````{code-tab} py
+  
+  def main():
+      return
+  ````
+`````
+
+
+## Références
+
+- [Sphinx Tabs](https://sphinx-tabs.readthedocs.io/en/latest/)

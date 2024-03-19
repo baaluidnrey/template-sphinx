@@ -1,32 +1,97 @@
 # Utiliser des onglets
 
-.. tabs::
+Reprenons une partie de l'exemple de la documentation de sphinx mais écrivons le en langage `Markdown` :
 
-   .. group-tab:: Linux
 
-      Linux tab content - tab set 1
+`````{tabs}
 
-   .. group-tab:: Mac OSX
+    ````{code-tab} c
+        C Main Function
+    ````
 
-      Mac OSX tab content - tab set 1
+    ````{code-tab} c++
+        C++ Main Function
+    ````
 
-   .. group-tab:: Windows
+    ````{code-tab} py
+        Python Main Function
+    ````
 
-      Windows tab content - tab set 1
+    ````{code-tab} julia
+        Julia Main Function
+    ````
+`````
 
-.. tabs::
+Je remets du texte pour séparer.
 
-   .. group-tab:: Linux
+`````{tabs}
 
-      Linux tab content - tab set 2
+    ````{code-tab} c
+        int main(const int argc, const char **argv) {
+        return 0;
+    ````
 
-   .. group-tab:: Mac OSX
+    ````{code-tab} c++
+        int main(const int argc, const char **argv) {
+        return 0;
+    ````
 
-      Mac OSX tab content - tab set 2
+    ````{code-tab} py
+        def main():
+        return
+    ````
 
-   .. group-tab:: Windows
+    ````{code-tab} julia
+        class Main {
+            public static void main(String[] args) {
+            }
+        }
+    ````
+`````
 
-      Windows tab content - tab set 2
+Avec une autre syntaxe ?
+
+`````{tabs}
+  ````{group-tab} Windows
+
+  Nano is installed as part of the Git for Windows installer and no
+  extra installation is needed.  It is available from the git-bash
+  shell.
+  ````
+
+  ````{group-tab} macOS
+
+  Nano is available by default.
+  ````
+
+  ````{group-tab} Linux
+
+  Nano is available by default in most operating systems.  If not, you
+  can install it via your software center.
+  ````
+`````
+
+`````{tabs}
+  ````{group-tab} Windows
+
+  Nano is installed as part of the Git for Windows installer and no
+  extra installation is needed.  It is available from the git-bash
+  shell.
+  ````
+
+  ````{group-tab} macOS
+
+  Nano is available by default.
+  ````
+
+  ````{group-tab} Linux
+
+  Nano is available by default in most operating systems.  If not, you
+  can install it via your software center.
+  ````
+`````
+
+
 
 ## Ressources
 

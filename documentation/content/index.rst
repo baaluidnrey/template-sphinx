@@ -16,6 +16,7 @@ Leur contenu vous explique comment utiliser ce *template* pour en faire de même
    pages-config.md
    fancy-diagrams.md
    formulas.md
+   fancy-tabs.md
 
 .. toctree::
    :maxdepth: 2

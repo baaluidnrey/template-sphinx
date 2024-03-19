@@ -131,11 +131,12 @@ Voici la démarche à suivre :
 1. Créer un environnement virtuel qui contient toutes les dépendances nécessaires (à faire juste une fois);
 
    ```bash
-   # création de l'environnement
-   $ python3 -m venv sphinx_env
+   # création de l'environnement (dans le répertoire $VENV_DIR qu'il faut choisir)
+   $ python3 -m venv $VENV_DIR/sphinx_env
+   
 
    # se placer dans l'environnement
-   $ source sphinx_env/bin/activate
+   $ source $VENV_DIR/sphinx_env/bin/activate
 
    # installer les dépendances
    $ python3 -m pip install -U sphinx

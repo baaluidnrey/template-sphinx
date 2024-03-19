@@ -31,7 +31,12 @@ conf_py_path = "/content/" # with leading and trailing slash
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinxcontrib.mermaid', 'sphinx.ext.mathjax']
+extensions = [  'myst_parser', 
+                'sphinx_rtd_theme', 
+                'sphinxcontrib.mermaid', 
+                'sphinx.ext.mathjax',
+                'sphinx_tabs.tabs',
+                ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../_templates']

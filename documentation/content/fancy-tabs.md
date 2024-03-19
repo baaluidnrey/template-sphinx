@@ -125,7 +125,7 @@ Cette fois-ci (maintenant qu'on sait comment écrire en *Markdown*) on reprend l
 `````
 
 
-## Pour mettre du code dans différents langages
+## Pour insérer du code dans différents langages
 
 Reprenons une partie de l'exemple de la documentation de sphinx mais écrivons le en langage `Markdown`.
 
@@ -187,6 +187,6 @@ Reprenons une partie de l'exemple de la documentation de sphinx mais écrivons l
 `````
 
 
-## Références
+**Références**
 
 - [Sphinx Tabs](https://sphinx-tabs.readthedocs.io/en/latest/)

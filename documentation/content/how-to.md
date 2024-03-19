@@ -161,7 +161,7 @@ Voici la démarche à suivre :
 4. Ouvrir la documentation dans le navigateur : fichier `index.htlm` dans `documentation/_build`.
 
 
-## Références
+**Références**
 
 1. Il faut mettre en place un *pipe* d'intégration continue : fichier `.gitlab-ci.yml`.
 

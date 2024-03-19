@@ -317,7 +317,7 @@ align: 'center'
         end
 ```
 
-## Références
+**Références**
 
 - [Mermaid Tutorials](https://mermaid.js.org/ecosystem/tutorials.html)
 - [Platen.io - Mermaid Diagrams](https://platen.io/modules/platen/markup/mermaid/)

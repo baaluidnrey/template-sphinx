@@ -57,7 +57,7 @@ Le template suit la charte graphique de l'ISIR, à savoir :
     </tr>
 </table>
 
-##  Références
+**Références**
 
 Le contenu de ce *template* est très fortement inspiré des ressources mises à disposition par *CodeRefinery* :
 - [CodeRefinery - Sphinx and Markdown](https://coderefinery.github.io/documentation/sphinx/)

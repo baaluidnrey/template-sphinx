@@ -7,3 +7,5 @@ La documentation de ce projet concerne l'utilisation de ce template et se trouve
 Pour la suite, veuillez donc aller [ici](https://templates-gitlab.web.isir.upmc.fr/template-sphinx/index.html).
 
 Je fais des modifications sur la branche principale pour voir ce qui se passe sur github-pages. 
+
+J'ai créé un nouveau fichier de pipeline qui n'utilise pas jekyll. voyons ce que ça donne.

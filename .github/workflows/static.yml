@@ -34,24 +34,12 @@ jobs:
         run: |
           sphinx-build documentation/content documentation/_build
 
-      # Stage all deployed assets in _gh-pages
-      - name: Copy deployment data to _gh-pages/
-        if: ${{ github.event_name == 'push' }}
-        run:
-          rsync -a documentation/_build/ _gh-pages/
-
-      # Add the .nojekyll file
-      - name: nojekyll
-        if: ${{ github.event_name == 'push' }}
-        run: |
-          touch _gh-pages/.nojekyll
-
       # Save artifact for the next step.
       - uses: actions/upload-artifact@v4
         if: ${{ github.event_name == 'push' }}
         with:
           name: github-pages
-          path: _gh-pages/          
+          path: documentation/_build          
 
 
   # Deploy in a separate job so that write permissions are restricted
